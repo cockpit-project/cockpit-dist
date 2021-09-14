@@ -1,0 +1,304 @@
+# Generated Makefile data for packagekit
+packagekit_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/cockpit-components-install-dialog.css \
+	pkg/lib/cockpit-components-install-dialog.jsx \
+	pkg/lib/cockpit-components-shutdown.jsx \
+	pkg/lib/cockpit-components-shutdown.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/ct-card.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/notifications.js \
+	pkg/lib/packagekit.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/patternfly/patternfly-cockpit.scss \
+	pkg/lib/patternfly/patternfly-overrides-variables.scss \
+	pkg/lib/patternfly/patternfly-overrides.scss \
+	pkg/lib/polyfills.js \
+	pkg/lib/python.js \
+	pkg/lib/serverTime.js \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/lib/timeformat.js \
+	pkg/packagekit/autoupdates.jsx \
+	pkg/packagekit/callTracer.py \
+	pkg/packagekit/history.jsx \
+	pkg/packagekit/index.html \
+	pkg/packagekit/kpatch.jsx \
+	pkg/packagekit/manifest.json \
+	pkg/packagekit/updates.jsx \
+	pkg/packagekit/updates.scss \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+packagekit_OUTPUTS = \
+	dist/packagekit/index.html \
+	dist/packagekit/po.cs.js \
+	dist/packagekit/po.de.js \
+	dist/packagekit/po.es.js \
+	dist/packagekit/po.fi.js \
+	dist/packagekit/po.fr.js \
+	dist/packagekit/po.he.js \
+	dist/packagekit/po.it.js \
+	dist/packagekit/po.ja.js \
+	dist/packagekit/po.ko.js \
+	dist/packagekit/po.nb_NO.js \
+	dist/packagekit/po.nl.js \
+	dist/packagekit/po.pl.js \
+	dist/packagekit/po.pt_BR.js \
+	dist/packagekit/po.ru.js \
+	dist/packagekit/po.sk.js \
+	dist/packagekit/po.sv.js \
+	dist/packagekit/po.tr.js \
+	dist/packagekit/po.uk.js \
+	dist/packagekit/po.zh_CN.js \
+	dist/packagekit/po.zh_TW.js \
+	dist/packagekit/updates.css \
+	dist/packagekit/updates.js \
+	dist/packagekit/updates.js.LICENSE.txt \
+	$(NULL)
+
+packagekit_INSTALL = \
+	dist/packagekit/manifest.json \
+	$(NULL)
+
+packagekit_GZ_INSTALL = \
+	dist/packagekit/index.html \
+	dist/packagekit/po.cs.js \
+	dist/packagekit/po.de.js \
+	dist/packagekit/po.es.js \
+	dist/packagekit/po.fi.js \
+	dist/packagekit/po.fr.js \
+	dist/packagekit/po.he.js \
+	dist/packagekit/po.it.js \
+	dist/packagekit/po.ja.js \
+	dist/packagekit/po.ko.js \
+	dist/packagekit/po.nb_NO.js \
+	dist/packagekit/po.nl.js \
+	dist/packagekit/po.pl.js \
+	dist/packagekit/po.pt_BR.js \
+	dist/packagekit/po.ru.js \
+	dist/packagekit/po.sk.js \
+	dist/packagekit/po.sv.js \
+	dist/packagekit/po.tr.js \
+	dist/packagekit/po.uk.js \
+	dist/packagekit/po.zh_CN.js \
+	dist/packagekit/po.zh_TW.js \
+	dist/packagekit/updates.css \
+	dist/packagekit/updates.js \
+	$(NULL)
+
+packagekit_TESTS = \
+	$(NULL)
+
+dist/packagekit/manifest.json: $(packagekit_INPUTS)
+
+dist/packagekit/index.html: dist/packagekit/manifest.json
+
+dist/packagekit/po.cs.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.de.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.es.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.fi.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.fr.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.he.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.it.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.ja.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.ko.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.nb_NO.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.nl.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.pl.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.pt_BR.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.ru.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.sk.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.sv.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.tr.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.uk.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.zh_CN.js: dist/packagekit/manifest.json
+
+dist/packagekit/po.zh_TW.js: dist/packagekit/manifest.json
+
+dist/packagekit/updates.css: dist/packagekit/manifest.json
+
+dist/packagekit/updates.js: dist/packagekit/manifest.json
+
+dist/packagekit/updates.js.LICENSE.txt: dist/packagekit/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/cockpit-components-install-dialog.css:
+
+pkg/lib/cockpit-components-install-dialog.jsx:
+
+pkg/lib/cockpit-components-shutdown.jsx:
+
+pkg/lib/cockpit-components-shutdown.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/notifications.js:
+
+pkg/lib/packagekit.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/patternfly/patternfly-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-overrides-variables.scss:
+
+pkg/lib/patternfly/patternfly-overrides.scss:
+
+pkg/lib/polyfills.js:
+
+pkg/lib/python.js:
+
+pkg/lib/serverTime.js:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/lib/timeformat.js:
+
+pkg/packagekit/autoupdates.jsx:
+
+pkg/packagekit/callTracer.py:
+
+pkg/packagekit/history.jsx:
+
+pkg/packagekit/index.html:
+
+pkg/packagekit/kpatch.jsx:
+
+pkg/packagekit/manifest.json:
+
+pkg/packagekit/updates.jsx:
+
+pkg/packagekit/updates.scss:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(packagekit_INPUTS)
+WEBPACK_OUTPUTS += $(packagekit_OUTPUTS)
+WEBPACK_INSTALL += $(packagekit_INSTALL)
+WEBPACK_GZ_INSTALL += $(packagekit_GZ_INSTALL)
+TESTS += $(packagekit_TESTS)
+
+packagekit: dist/packagekit/manifest.json
