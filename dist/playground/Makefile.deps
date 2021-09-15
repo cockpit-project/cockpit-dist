@@ -1,0 +1,513 @@
+# Generated Makefile data for playground
+playground_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/cockpit-components-file-autocomplete.jsx \
+	pkg/lib/cockpit-components-logs-panel.jsx \
+	pkg/lib/cockpit-components-logs-panel.scss \
+	pkg/lib/cockpit-components-plot.jsx \
+	pkg/lib/cockpit-components-plot.scss \
+	pkg/lib/form-layout.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/journal.css \
+	pkg/lib/journal.js \
+	pkg/lib/mustache.js \
+	pkg/lib/notifications.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/patternfly/patternfly-cockpit.scss \
+	pkg/lib/patternfly/patternfly-overrides-variables.scss \
+	pkg/lib/patternfly/patternfly-overrides.scss \
+	pkg/lib/plot.js \
+	pkg/lib/service.js \
+	pkg/lib/timeformat.js \
+	pkg/lib/variables.scss \
+	pkg/playground/exception.html \
+	pkg/playground/exception.js \
+	pkg/playground/hammer.gif \
+	pkg/playground/index.html \
+	pkg/playground/index.js \
+	pkg/playground/journal.html \
+	pkg/playground/journal.jsx \
+	pkg/playground/manifest.json \
+	pkg/playground/metrics.html \
+	pkg/playground/metrics.js \
+	pkg/playground/notifications-receiver.html \
+	pkg/playground/notifications-receiver.js \
+	pkg/playground/pkgs.html \
+	pkg/playground/pkgs.js \
+	pkg/playground/plot.css \
+	pkg/playground/plot.html \
+	pkg/playground/plot.js \
+	pkg/playground/preloaded.html \
+	pkg/playground/preloaded.js \
+	pkg/playground/react-demo-cards.jsx \
+	pkg/playground/react-demo-dialog.jsx \
+	pkg/playground/react-demo-file-autocomplete.jsx \
+	pkg/playground/react-patterns.html \
+	pkg/playground/react-patterns.js \
+	pkg/playground/service.html \
+	pkg/playground/service.js \
+	pkg/playground/speed.css \
+	pkg/playground/speed.html \
+	pkg/playground/speed.js \
+	pkg/playground/test.html \
+	pkg/playground/test.js \
+	pkg/playground/translate.html \
+	pkg/playground/translate.js \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+playground_OUTPUTS = \
+	dist/playground/exception.css \
+	dist/playground/exception.html \
+	dist/playground/exception.js \
+	dist/playground/hammer.gif \
+	dist/playground/index.css \
+	dist/playground/index.html \
+	dist/playground/index.js \
+	dist/playground/journal.css \
+	dist/playground/journal.html \
+	dist/playground/journal.js \
+	dist/playground/journal.js.LICENSE.txt \
+	dist/playground/metrics.css \
+	dist/playground/metrics.html \
+	dist/playground/metrics.js \
+	dist/playground/notifications-receiver.html \
+	dist/playground/notifications-receiver.js \
+	dist/playground/pkgs.css \
+	dist/playground/pkgs.html \
+	dist/playground/pkgs.js \
+	dist/playground/plot.css \
+	dist/playground/plot.html \
+	dist/playground/plot.js \
+	dist/playground/plot.js.LICENSE.txt \
+	dist/playground/po.cs.js \
+	dist/playground/po.de.js \
+	dist/playground/po.es.js \
+	dist/playground/po.fi.js \
+	dist/playground/po.fr.js \
+	dist/playground/po.he.js \
+	dist/playground/po.it.js \
+	dist/playground/po.ja.js \
+	dist/playground/po.ko.js \
+	dist/playground/po.nb_NO.js \
+	dist/playground/po.nl.js \
+	dist/playground/po.pl.js \
+	dist/playground/po.pt_BR.js \
+	dist/playground/po.ru.js \
+	dist/playground/po.sk.js \
+	dist/playground/po.sv.js \
+	dist/playground/po.tr.js \
+	dist/playground/po.uk.js \
+	dist/playground/po.zh_CN.js \
+	dist/playground/po.zh_TW.js \
+	dist/playground/preloaded.html \
+	dist/playground/preloaded.js \
+	dist/playground/react-patterns.css \
+	dist/playground/react-patterns.html \
+	dist/playground/react-patterns.js \
+	dist/playground/react-patterns.js.LICENSE.txt \
+	dist/playground/service.css \
+	dist/playground/service.html \
+	dist/playground/service.js \
+	dist/playground/speed.css \
+	dist/playground/speed.html \
+	dist/playground/speed.js \
+	dist/playground/test.css \
+	dist/playground/test.html \
+	dist/playground/test.js \
+	dist/playground/translate.css \
+	dist/playground/translate.html \
+	dist/playground/translate.js \
+	dist/playground/translate.js.LICENSE.txt \
+	$(NULL)
+
+playground_INSTALL = \
+	dist/playground/hammer.gif \
+	dist/playground/manifest.json \
+	$(NULL)
+
+playground_GZ_INSTALL = \
+	dist/playground/exception.css \
+	dist/playground/exception.html \
+	dist/playground/exception.js \
+	dist/playground/index.css \
+	dist/playground/index.html \
+	dist/playground/index.js \
+	dist/playground/journal.css \
+	dist/playground/journal.html \
+	dist/playground/journal.js \
+	dist/playground/metrics.css \
+	dist/playground/metrics.html \
+	dist/playground/metrics.js \
+	dist/playground/notifications-receiver.html \
+	dist/playground/notifications-receiver.js \
+	dist/playground/pkgs.css \
+	dist/playground/pkgs.html \
+	dist/playground/pkgs.js \
+	dist/playground/plot.css \
+	dist/playground/plot.html \
+	dist/playground/plot.js \
+	dist/playground/po.cs.js \
+	dist/playground/po.de.js \
+	dist/playground/po.es.js \
+	dist/playground/po.fi.js \
+	dist/playground/po.fr.js \
+	dist/playground/po.he.js \
+	dist/playground/po.it.js \
+	dist/playground/po.ja.js \
+	dist/playground/po.ko.js \
+	dist/playground/po.nb_NO.js \
+	dist/playground/po.nl.js \
+	dist/playground/po.pl.js \
+	dist/playground/po.pt_BR.js \
+	dist/playground/po.ru.js \
+	dist/playground/po.sk.js \
+	dist/playground/po.sv.js \
+	dist/playground/po.tr.js \
+	dist/playground/po.uk.js \
+	dist/playground/po.zh_CN.js \
+	dist/playground/po.zh_TW.js \
+	dist/playground/preloaded.html \
+	dist/playground/preloaded.js \
+	dist/playground/react-patterns.css \
+	dist/playground/react-patterns.html \
+	dist/playground/react-patterns.js \
+	dist/playground/service.css \
+	dist/playground/service.html \
+	dist/playground/service.js \
+	dist/playground/speed.css \
+	dist/playground/speed.html \
+	dist/playground/speed.js \
+	dist/playground/test.css \
+	dist/playground/test.html \
+	dist/playground/test.js \
+	dist/playground/translate.css \
+	dist/playground/translate.html \
+	dist/playground/translate.js \
+	$(NULL)
+
+playground_TESTS = \
+	$(NULL)
+
+dist/playground/manifest.json: $(playground_INPUTS)
+
+dist/playground/exception.css: dist/playground/manifest.json
+
+dist/playground/exception.html: dist/playground/manifest.json
+
+dist/playground/exception.js: dist/playground/manifest.json
+
+dist/playground/hammer.gif: dist/playground/manifest.json
+
+dist/playground/index.css: dist/playground/manifest.json
+
+dist/playground/index.html: dist/playground/manifest.json
+
+dist/playground/index.js: dist/playground/manifest.json
+
+dist/playground/journal.css: dist/playground/manifest.json
+
+dist/playground/journal.html: dist/playground/manifest.json
+
+dist/playground/journal.js: dist/playground/manifest.json
+
+dist/playground/journal.js.LICENSE.txt: dist/playground/manifest.json
+
+dist/playground/metrics.css: dist/playground/manifest.json
+
+dist/playground/metrics.html: dist/playground/manifest.json
+
+dist/playground/metrics.js: dist/playground/manifest.json
+
+dist/playground/notifications-receiver.html: dist/playground/manifest.json
+
+dist/playground/notifications-receiver.js: dist/playground/manifest.json
+
+dist/playground/pkgs.css: dist/playground/manifest.json
+
+dist/playground/pkgs.html: dist/playground/manifest.json
+
+dist/playground/pkgs.js: dist/playground/manifest.json
+
+dist/playground/plot.css: dist/playground/manifest.json
+
+dist/playground/plot.html: dist/playground/manifest.json
+
+dist/playground/plot.js: dist/playground/manifest.json
+
+dist/playground/plot.js.LICENSE.txt: dist/playground/manifest.json
+
+dist/playground/po.cs.js: dist/playground/manifest.json
+
+dist/playground/po.de.js: dist/playground/manifest.json
+
+dist/playground/po.es.js: dist/playground/manifest.json
+
+dist/playground/po.fi.js: dist/playground/manifest.json
+
+dist/playground/po.fr.js: dist/playground/manifest.json
+
+dist/playground/po.he.js: dist/playground/manifest.json
+
+dist/playground/po.it.js: dist/playground/manifest.json
+
+dist/playground/po.ja.js: dist/playground/manifest.json
+
+dist/playground/po.ko.js: dist/playground/manifest.json
+
+dist/playground/po.nb_NO.js: dist/playground/manifest.json
+
+dist/playground/po.nl.js: dist/playground/manifest.json
+
+dist/playground/po.pl.js: dist/playground/manifest.json
+
+dist/playground/po.pt_BR.js: dist/playground/manifest.json
+
+dist/playground/po.ru.js: dist/playground/manifest.json
+
+dist/playground/po.sk.js: dist/playground/manifest.json
+
+dist/playground/po.sv.js: dist/playground/manifest.json
+
+dist/playground/po.tr.js: dist/playground/manifest.json
+
+dist/playground/po.uk.js: dist/playground/manifest.json
+
+dist/playground/po.zh_CN.js: dist/playground/manifest.json
+
+dist/playground/po.zh_TW.js: dist/playground/manifest.json
+
+dist/playground/preloaded.html: dist/playground/manifest.json
+
+dist/playground/preloaded.js: dist/playground/manifest.json
+
+dist/playground/react-patterns.css: dist/playground/manifest.json
+
+dist/playground/react-patterns.html: dist/playground/manifest.json
+
+dist/playground/react-patterns.js: dist/playground/manifest.json
+
+dist/playground/react-patterns.js.LICENSE.txt: dist/playground/manifest.json
+
+dist/playground/service.css: dist/playground/manifest.json
+
+dist/playground/service.html: dist/playground/manifest.json
+
+dist/playground/service.js: dist/playground/manifest.json
+
+dist/playground/speed.css: dist/playground/manifest.json
+
+dist/playground/speed.html: dist/playground/manifest.json
+
+dist/playground/speed.js: dist/playground/manifest.json
+
+dist/playground/test.css: dist/playground/manifest.json
+
+dist/playground/test.html: dist/playground/manifest.json
+
+dist/playground/test.js: dist/playground/manifest.json
+
+dist/playground/translate.css: dist/playground/manifest.json
+
+dist/playground/translate.html: dist/playground/manifest.json
+
+dist/playground/translate.js: dist/playground/manifest.json
+
+dist/playground/translate.js.LICENSE.txt: dist/playground/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/cockpit-components-file-autocomplete.jsx:
+
+pkg/lib/cockpit-components-logs-panel.jsx:
+
+pkg/lib/cockpit-components-logs-panel.scss:
+
+pkg/lib/cockpit-components-plot.jsx:
+
+pkg/lib/cockpit-components-plot.scss:
+
+pkg/lib/form-layout.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/journal.css:
+
+pkg/lib/journal.js:
+
+pkg/lib/mustache.js:
+
+pkg/lib/notifications.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/patternfly/patternfly-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-overrides-variables.scss:
+
+pkg/lib/patternfly/patternfly-overrides.scss:
+
+pkg/lib/plot.js:
+
+pkg/lib/service.js:
+
+pkg/lib/timeformat.js:
+
+pkg/lib/variables.scss:
+
+pkg/playground/exception.html:
+
+pkg/playground/exception.js:
+
+pkg/playground/hammer.gif:
+
+pkg/playground/index.html:
+
+pkg/playground/index.js:
+
+pkg/playground/journal.html:
+
+pkg/playground/journal.jsx:
+
+pkg/playground/manifest.json:
+
+pkg/playground/metrics.html:
+
+pkg/playground/metrics.js:
+
+pkg/playground/notifications-receiver.html:
+
+pkg/playground/notifications-receiver.js:
+
+pkg/playground/pkgs.html:
+
+pkg/playground/pkgs.js:
+
+pkg/playground/plot.css:
+
+pkg/playground/plot.html:
+
+pkg/playground/plot.js:
+
+pkg/playground/preloaded.html:
+
+pkg/playground/preloaded.js:
+
+pkg/playground/react-demo-cards.jsx:
+
+pkg/playground/react-demo-dialog.jsx:
+
+pkg/playground/react-demo-file-autocomplete.jsx:
+
+pkg/playground/react-patterns.html:
+
+pkg/playground/react-patterns.js:
+
+pkg/playground/service.html:
+
+pkg/playground/service.js:
+
+pkg/playground/speed.css:
+
+pkg/playground/speed.html:
+
+pkg/playground/speed.js:
+
+pkg/playground/test.html:
+
+pkg/playground/test.js:
+
+pkg/playground/translate.html:
+
+pkg/playground/translate.js:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(playground_INPUTS)
+WEBPACK_OUTPUTS += $(playground_OUTPUTS)
+WEBPACK_INSTALL += $(playground_INSTALL)
+WEBPACK_GZ_INSTALL += $(playground_GZ_INSTALL)
+TESTS += $(playground_TESTS)
+
+playground: dist/playground/manifest.json
