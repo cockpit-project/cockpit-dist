@@ -1,0 +1,289 @@
+# Generated Makefile data for metrics
+metrics_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-firewalld-request.jsx \
+	pkg/lib/cockpit-components-firewalld-request.scss \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/cockpit-components-install-dialog.css \
+	pkg/lib/cockpit-components-install-dialog.jsx \
+	pkg/lib/cockpit-components-logs-panel.jsx \
+	pkg/lib/cockpit-components-logs-panel.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/ct-card.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/journal.css \
+	pkg/lib/journal.js \
+	pkg/lib/machine-info.js \
+	pkg/lib/packagekit.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/lib/timeformat.js \
+	pkg/metrics/index.html \
+	pkg/metrics/index.js \
+	pkg/metrics/manifest.json \
+	pkg/metrics/metrics.jsx \
+	pkg/metrics/metrics.scss \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+metrics_OUTPUTS = \
+	dist/metrics/index.css \
+	dist/metrics/index.html \
+	dist/metrics/index.js \
+	dist/metrics/index.js.LICENSE.txt \
+	dist/metrics/po.cs.js \
+	dist/metrics/po.de.js \
+	dist/metrics/po.es.js \
+	dist/metrics/po.fi.js \
+	dist/metrics/po.fr.js \
+	dist/metrics/po.he.js \
+	dist/metrics/po.it.js \
+	dist/metrics/po.ja.js \
+	dist/metrics/po.ko.js \
+	dist/metrics/po.nb_NO.js \
+	dist/metrics/po.nl.js \
+	dist/metrics/po.pl.js \
+	dist/metrics/po.pt_BR.js \
+	dist/metrics/po.ru.js \
+	dist/metrics/po.sk.js \
+	dist/metrics/po.sv.js \
+	dist/metrics/po.tr.js \
+	dist/metrics/po.uk.js \
+	dist/metrics/po.zh_CN.js \
+	dist/metrics/po.zh_TW.js \
+	$(NULL)
+
+metrics_INSTALL = \
+	dist/metrics/manifest.json \
+	$(NULL)
+
+metrics_GZ_INSTALL = \
+	dist/metrics/index.css \
+	dist/metrics/index.html \
+	dist/metrics/index.js \
+	dist/metrics/po.cs.js \
+	dist/metrics/po.de.js \
+	dist/metrics/po.es.js \
+	dist/metrics/po.fi.js \
+	dist/metrics/po.fr.js \
+	dist/metrics/po.he.js \
+	dist/metrics/po.it.js \
+	dist/metrics/po.ja.js \
+	dist/metrics/po.ko.js \
+	dist/metrics/po.nb_NO.js \
+	dist/metrics/po.nl.js \
+	dist/metrics/po.pl.js \
+	dist/metrics/po.pt_BR.js \
+	dist/metrics/po.ru.js \
+	dist/metrics/po.sk.js \
+	dist/metrics/po.sv.js \
+	dist/metrics/po.tr.js \
+	dist/metrics/po.uk.js \
+	dist/metrics/po.zh_CN.js \
+	dist/metrics/po.zh_TW.js \
+	$(NULL)
+
+metrics_TESTS = \
+	$(NULL)
+
+dist/metrics/manifest.json: $(metrics_INPUTS)
+
+dist/metrics/index.css: dist/metrics/manifest.json
+
+dist/metrics/index.html: dist/metrics/manifest.json
+
+dist/metrics/index.js: dist/metrics/manifest.json
+
+dist/metrics/index.js.LICENSE.txt: dist/metrics/manifest.json
+
+dist/metrics/po.cs.js: dist/metrics/manifest.json
+
+dist/metrics/po.de.js: dist/metrics/manifest.json
+
+dist/metrics/po.es.js: dist/metrics/manifest.json
+
+dist/metrics/po.fi.js: dist/metrics/manifest.json
+
+dist/metrics/po.fr.js: dist/metrics/manifest.json
+
+dist/metrics/po.he.js: dist/metrics/manifest.json
+
+dist/metrics/po.it.js: dist/metrics/manifest.json
+
+dist/metrics/po.ja.js: dist/metrics/manifest.json
+
+dist/metrics/po.ko.js: dist/metrics/manifest.json
+
+dist/metrics/po.nb_NO.js: dist/metrics/manifest.json
+
+dist/metrics/po.nl.js: dist/metrics/manifest.json
+
+dist/metrics/po.pl.js: dist/metrics/manifest.json
+
+dist/metrics/po.pt_BR.js: dist/metrics/manifest.json
+
+dist/metrics/po.ru.js: dist/metrics/manifest.json
+
+dist/metrics/po.sk.js: dist/metrics/manifest.json
+
+dist/metrics/po.sv.js: dist/metrics/manifest.json
+
+dist/metrics/po.tr.js: dist/metrics/manifest.json
+
+dist/metrics/po.uk.js: dist/metrics/manifest.json
+
+dist/metrics/po.zh_CN.js: dist/metrics/manifest.json
+
+dist/metrics/po.zh_TW.js: dist/metrics/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-firewalld-request.jsx:
+
+pkg/lib/cockpit-components-firewalld-request.scss:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/cockpit-components-install-dialog.css:
+
+pkg/lib/cockpit-components-install-dialog.jsx:
+
+pkg/lib/cockpit-components-logs-panel.jsx:
+
+pkg/lib/cockpit-components-logs-panel.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/journal.css:
+
+pkg/lib/journal.js:
+
+pkg/lib/machine-info.js:
+
+pkg/lib/packagekit.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/lib/timeformat.js:
+
+pkg/metrics/index.html:
+
+pkg/metrics/index.js:
+
+pkg/metrics/manifest.json:
+
+pkg/metrics/metrics.jsx:
+
+pkg/metrics/metrics.scss:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(metrics_INPUTS)
+WEBPACK_OUTPUTS += $(metrics_OUTPUTS)
+WEBPACK_INSTALL += $(metrics_INSTALL)
+WEBPACK_GZ_INSTALL += $(metrics_GZ_INSTALL)
+TESTS += $(metrics_TESTS)
+
+metrics: dist/metrics/manifest.json
