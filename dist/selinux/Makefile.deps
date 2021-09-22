@@ -1,0 +1,259 @@
+# Generated Makefile data for selinux
+selinux_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-listing-panel.jsx \
+	pkg/lib/cockpit-components-listing-panel.scss \
+	pkg/lib/cockpit-components-modifications.css \
+	pkg/lib/cockpit-components-modifications.jsx \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/ct-card.scss \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/superuser.js \
+	pkg/lib/timeformat.js \
+	pkg/selinux/manifest.json \
+	pkg/selinux/selinux-client.js \
+	pkg/selinux/setroubleshoot-client.js \
+	pkg/selinux/setroubleshoot-view.jsx \
+	pkg/selinux/setroubleshoot.html \
+	pkg/selinux/setroubleshoot.js \
+	pkg/selinux/setroubleshoot.scss \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+selinux_OUTPUTS = \
+	dist/selinux/po.cs.js \
+	dist/selinux/po.de.js \
+	dist/selinux/po.es.js \
+	dist/selinux/po.fi.js \
+	dist/selinux/po.fr.js \
+	dist/selinux/po.he.js \
+	dist/selinux/po.it.js \
+	dist/selinux/po.ja.js \
+	dist/selinux/po.ko.js \
+	dist/selinux/po.nb_NO.js \
+	dist/selinux/po.nl.js \
+	dist/selinux/po.pl.js \
+	dist/selinux/po.pt_BR.js \
+	dist/selinux/po.ru.js \
+	dist/selinux/po.sk.js \
+	dist/selinux/po.sv.js \
+	dist/selinux/po.tr.js \
+	dist/selinux/po.uk.js \
+	dist/selinux/po.zh_CN.js \
+	dist/selinux/po.zh_TW.js \
+	dist/selinux/selinux.css \
+	dist/selinux/selinux.js \
+	dist/selinux/selinux.js.LICENSE.txt \
+	dist/selinux/setroubleshoot.html \
+	$(NULL)
+
+selinux_INSTALL = \
+	dist/selinux/manifest.json \
+	$(NULL)
+
+selinux_GZ_INSTALL = \
+	dist/selinux/po.cs.js \
+	dist/selinux/po.de.js \
+	dist/selinux/po.es.js \
+	dist/selinux/po.fi.js \
+	dist/selinux/po.fr.js \
+	dist/selinux/po.he.js \
+	dist/selinux/po.it.js \
+	dist/selinux/po.ja.js \
+	dist/selinux/po.ko.js \
+	dist/selinux/po.nb_NO.js \
+	dist/selinux/po.nl.js \
+	dist/selinux/po.pl.js \
+	dist/selinux/po.pt_BR.js \
+	dist/selinux/po.ru.js \
+	dist/selinux/po.sk.js \
+	dist/selinux/po.sv.js \
+	dist/selinux/po.tr.js \
+	dist/selinux/po.uk.js \
+	dist/selinux/po.zh_CN.js \
+	dist/selinux/po.zh_TW.js \
+	dist/selinux/selinux.css \
+	dist/selinux/selinux.js \
+	dist/selinux/setroubleshoot.html \
+	$(NULL)
+
+selinux_TESTS = \
+	$(NULL)
+
+dist/selinux/manifest.json: $(selinux_INPUTS)
+
+dist/selinux/po.cs.js: dist/selinux/manifest.json
+
+dist/selinux/po.de.js: dist/selinux/manifest.json
+
+dist/selinux/po.es.js: dist/selinux/manifest.json
+
+dist/selinux/po.fi.js: dist/selinux/manifest.json
+
+dist/selinux/po.fr.js: dist/selinux/manifest.json
+
+dist/selinux/po.he.js: dist/selinux/manifest.json
+
+dist/selinux/po.it.js: dist/selinux/manifest.json
+
+dist/selinux/po.ja.js: dist/selinux/manifest.json
+
+dist/selinux/po.ko.js: dist/selinux/manifest.json
+
+dist/selinux/po.nb_NO.js: dist/selinux/manifest.json
+
+dist/selinux/po.nl.js: dist/selinux/manifest.json
+
+dist/selinux/po.pl.js: dist/selinux/manifest.json
+
+dist/selinux/po.pt_BR.js: dist/selinux/manifest.json
+
+dist/selinux/po.ru.js: dist/selinux/manifest.json
+
+dist/selinux/po.sk.js: dist/selinux/manifest.json
+
+dist/selinux/po.sv.js: dist/selinux/manifest.json
+
+dist/selinux/po.tr.js: dist/selinux/manifest.json
+
+dist/selinux/po.uk.js: dist/selinux/manifest.json
+
+dist/selinux/po.zh_CN.js: dist/selinux/manifest.json
+
+dist/selinux/po.zh_TW.js: dist/selinux/manifest.json
+
+dist/selinux/selinux.css: dist/selinux/manifest.json
+
+dist/selinux/selinux.js: dist/selinux/manifest.json
+
+dist/selinux/selinux.js.LICENSE.txt: dist/selinux/manifest.json
+
+dist/selinux/setroubleshoot.html: dist/selinux/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-listing-panel.jsx:
+
+pkg/lib/cockpit-components-listing-panel.scss:
+
+pkg/lib/cockpit-components-modifications.css:
+
+pkg/lib/cockpit-components-modifications.jsx:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/superuser.js:
+
+pkg/lib/timeformat.js:
+
+pkg/selinux/manifest.json:
+
+pkg/selinux/selinux-client.js:
+
+pkg/selinux/setroubleshoot-client.js:
+
+pkg/selinux/setroubleshoot-view.jsx:
+
+pkg/selinux/setroubleshoot.html:
+
+pkg/selinux/setroubleshoot.js:
+
+pkg/selinux/setroubleshoot.scss:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(selinux_INPUTS)
+WEBPACK_OUTPUTS += $(selinux_OUTPUTS)
+WEBPACK_INSTALL += $(selinux_INSTALL)
+WEBPACK_GZ_INSTALL += $(selinux_GZ_INSTALL)
+TESTS += $(selinux_TESTS)
+
+selinux: dist/selinux/manifest.json
