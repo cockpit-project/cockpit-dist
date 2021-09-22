@@ -1,0 +1,242 @@
+# Generated Makefile data for sosreport
+sosreport_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/form-layout.scss \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/patternfly/patternfly-cockpit.scss \
+	pkg/lib/patternfly/patternfly-overrides-variables.scss \
+	pkg/lib/patternfly/patternfly-overrides.scss \
+	pkg/lib/superuser.js \
+	pkg/lib/table.css \
+	pkg/lib/variables.scss \
+	pkg/sosreport/index.html \
+	pkg/sosreport/index.js \
+	pkg/sosreport/manifest.json \
+	pkg/sosreport/sosreport.png \
+	pkg/sosreport/sosreport.scss \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+sosreport_OUTPUTS = \
+	dist/sosreport/index.html \
+	dist/sosreport/po.cs.js \
+	dist/sosreport/po.de.js \
+	dist/sosreport/po.es.js \
+	dist/sosreport/po.fi.js \
+	dist/sosreport/po.fr.js \
+	dist/sosreport/po.he.js \
+	dist/sosreport/po.it.js \
+	dist/sosreport/po.ja.js \
+	dist/sosreport/po.ko.js \
+	dist/sosreport/po.nb_NO.js \
+	dist/sosreport/po.nl.js \
+	dist/sosreport/po.pl.js \
+	dist/sosreport/po.pt_BR.js \
+	dist/sosreport/po.ru.js \
+	dist/sosreport/po.sk.js \
+	dist/sosreport/po.sv.js \
+	dist/sosreport/po.tr.js \
+	dist/sosreport/po.uk.js \
+	dist/sosreport/po.zh_CN.js \
+	dist/sosreport/po.zh_TW.js \
+	dist/sosreport/sosreport.css \
+	dist/sosreport/sosreport.js \
+	dist/sosreport/sosreport.png \
+	$(NULL)
+
+sosreport_INSTALL = \
+	dist/sosreport/manifest.json \
+	dist/sosreport/sosreport.png \
+	$(NULL)
+
+sosreport_GZ_INSTALL = \
+	dist/sosreport/index.html \
+	dist/sosreport/po.cs.js \
+	dist/sosreport/po.de.js \
+	dist/sosreport/po.es.js \
+	dist/sosreport/po.fi.js \
+	dist/sosreport/po.fr.js \
+	dist/sosreport/po.he.js \
+	dist/sosreport/po.it.js \
+	dist/sosreport/po.ja.js \
+	dist/sosreport/po.ko.js \
+	dist/sosreport/po.nb_NO.js \
+	dist/sosreport/po.nl.js \
+	dist/sosreport/po.pl.js \
+	dist/sosreport/po.pt_BR.js \
+	dist/sosreport/po.ru.js \
+	dist/sosreport/po.sk.js \
+	dist/sosreport/po.sv.js \
+	dist/sosreport/po.tr.js \
+	dist/sosreport/po.uk.js \
+	dist/sosreport/po.zh_CN.js \
+	dist/sosreport/po.zh_TW.js \
+	dist/sosreport/sosreport.css \
+	dist/sosreport/sosreport.js \
+	$(NULL)
+
+sosreport_TESTS = \
+	$(NULL)
+
+dist/sosreport/manifest.json: $(sosreport_INPUTS)
+
+dist/sosreport/index.html: dist/sosreport/manifest.json
+
+dist/sosreport/po.cs.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.de.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.es.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.fi.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.fr.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.he.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.it.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.ja.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.ko.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.nb_NO.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.nl.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.pl.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.pt_BR.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.ru.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.sk.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.sv.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.tr.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.uk.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.zh_CN.js: dist/sosreport/manifest.json
+
+dist/sosreport/po.zh_TW.js: dist/sosreport/manifest.json
+
+dist/sosreport/sosreport.css: dist/sosreport/manifest.json
+
+dist/sosreport/sosreport.js: dist/sosreport/manifest.json
+
+dist/sosreport/sosreport.png: dist/sosreport/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/form-layout.scss:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/patternfly/patternfly-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-overrides-variables.scss:
+
+pkg/lib/patternfly/patternfly-overrides.scss:
+
+pkg/lib/superuser.js:
+
+pkg/lib/table.css:
+
+pkg/lib/variables.scss:
+
+pkg/sosreport/index.html:
+
+pkg/sosreport/index.js:
+
+pkg/sosreport/manifest.json:
+
+pkg/sosreport/sosreport.png:
+
+pkg/sosreport/sosreport.scss:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(sosreport_INPUTS)
+WEBPACK_OUTPUTS += $(sosreport_OUTPUTS)
+WEBPACK_INSTALL += $(sosreport_INSTALL)
+WEBPACK_GZ_INSTALL += $(sosreport_GZ_INSTALL)
+TESTS += $(sosreport_TESTS)
+
+sosreport: dist/sosreport/manifest.json
