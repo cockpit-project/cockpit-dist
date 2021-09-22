@@ -1,0 +1,219 @@
+# Generated Makefile data for tuned
+tuned_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/tuned/change-profile.jsx \
+	pkg/tuned/dialog.js \
+	pkg/tuned/link.html \
+	pkg/tuned/manifest.json \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+tuned_OUTPUTS = \
+	dist/tuned/performance.css \
+	dist/tuned/performance.js \
+	dist/tuned/performance.js.LICENSE.txt \
+	dist/tuned/po.cs.js \
+	dist/tuned/po.de.js \
+	dist/tuned/po.es.js \
+	dist/tuned/po.fi.js \
+	dist/tuned/po.fr.js \
+	dist/tuned/po.he.js \
+	dist/tuned/po.it.js \
+	dist/tuned/po.ja.js \
+	dist/tuned/po.ko.js \
+	dist/tuned/po.nb_NO.js \
+	dist/tuned/po.nl.js \
+	dist/tuned/po.pl.js \
+	dist/tuned/po.pt_BR.js \
+	dist/tuned/po.ru.js \
+	dist/tuned/po.sk.js \
+	dist/tuned/po.sv.js \
+	dist/tuned/po.tr.js \
+	dist/tuned/po.uk.js \
+	dist/tuned/po.zh_CN.js \
+	dist/tuned/po.zh_TW.js \
+	$(NULL)
+
+tuned_INSTALL = \
+	dist/tuned/manifest.json \
+	$(NULL)
+
+tuned_GZ_INSTALL = \
+	dist/tuned/performance.css \
+	dist/tuned/performance.js \
+	dist/tuned/po.cs.js \
+	dist/tuned/po.de.js \
+	dist/tuned/po.es.js \
+	dist/tuned/po.fi.js \
+	dist/tuned/po.fr.js \
+	dist/tuned/po.he.js \
+	dist/tuned/po.it.js \
+	dist/tuned/po.ja.js \
+	dist/tuned/po.ko.js \
+	dist/tuned/po.nb_NO.js \
+	dist/tuned/po.nl.js \
+	dist/tuned/po.pl.js \
+	dist/tuned/po.pt_BR.js \
+	dist/tuned/po.ru.js \
+	dist/tuned/po.sk.js \
+	dist/tuned/po.sv.js \
+	dist/tuned/po.tr.js \
+	dist/tuned/po.uk.js \
+	dist/tuned/po.zh_CN.js \
+	dist/tuned/po.zh_TW.js \
+	$(NULL)
+
+tuned_TESTS = \
+	$(NULL)
+
+dist/tuned/manifest.json: $(tuned_INPUTS)
+
+dist/tuned/performance.css: dist/tuned/manifest.json
+
+dist/tuned/performance.js: dist/tuned/manifest.json
+
+dist/tuned/performance.js.LICENSE.txt: dist/tuned/manifest.json
+
+dist/tuned/po.cs.js: dist/tuned/manifest.json
+
+dist/tuned/po.de.js: dist/tuned/manifest.json
+
+dist/tuned/po.es.js: dist/tuned/manifest.json
+
+dist/tuned/po.fi.js: dist/tuned/manifest.json
+
+dist/tuned/po.fr.js: dist/tuned/manifest.json
+
+dist/tuned/po.he.js: dist/tuned/manifest.json
+
+dist/tuned/po.it.js: dist/tuned/manifest.json
+
+dist/tuned/po.ja.js: dist/tuned/manifest.json
+
+dist/tuned/po.ko.js: dist/tuned/manifest.json
+
+dist/tuned/po.nb_NO.js: dist/tuned/manifest.json
+
+dist/tuned/po.nl.js: dist/tuned/manifest.json
+
+dist/tuned/po.pl.js: dist/tuned/manifest.json
+
+dist/tuned/po.pt_BR.js: dist/tuned/manifest.json
+
+dist/tuned/po.ru.js: dist/tuned/manifest.json
+
+dist/tuned/po.sk.js: dist/tuned/manifest.json
+
+dist/tuned/po.sv.js: dist/tuned/manifest.json
+
+dist/tuned/po.tr.js: dist/tuned/manifest.json
+
+dist/tuned/po.uk.js: dist/tuned/manifest.json
+
+dist/tuned/po.zh_CN.js: dist/tuned/manifest.json
+
+dist/tuned/po.zh_TW.js: dist/tuned/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/tuned/change-profile.jsx:
+
+pkg/tuned/dialog.js:
+
+pkg/tuned/link.html:
+
+pkg/tuned/manifest.json:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(tuned_INPUTS)
+WEBPACK_OUTPUTS += $(tuned_OUTPUTS)
+WEBPACK_INSTALL += $(tuned_INSTALL)
+WEBPACK_GZ_INSTALL += $(tuned_GZ_INSTALL)
+TESTS += $(tuned_TESTS)
+
+tuned: dist/tuned/manifest.json
