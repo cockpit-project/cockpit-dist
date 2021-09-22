@@ -1,0 +1,374 @@
+# Generated Makefile data for networkmanager
+networkmanager_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/cockpit-components-logs-panel.jsx \
+	pkg/lib/cockpit-components-logs-panel.scss \
+	pkg/lib/cockpit-components-plot.jsx \
+	pkg/lib/cockpit-components-plot.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/ct-card.scss \
+	pkg/lib/form-layout.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/journal.css \
+	pkg/lib/journal.js \
+	pkg/lib/mustache.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/patternfly/patternfly-cockpit.scss \
+	pkg/lib/patternfly/patternfly-overrides-variables.scss \
+	pkg/lib/patternfly/patternfly-overrides.scss \
+	pkg/lib/patterns.js \
+	pkg/lib/plot.js \
+	pkg/lib/qunit-config.js \
+	pkg/lib/qunit-template.html \
+	pkg/lib/qunit-tests.js \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/lib/table.css \
+	pkg/lib/timeformat.js \
+	pkg/lib/variables.scss \
+	pkg/networkmanager/app.jsx \
+	pkg/networkmanager/firewall-client.js \
+	pkg/networkmanager/firewall-switch.jsx \
+	pkg/networkmanager/firewall.html \
+	pkg/networkmanager/firewall.jsx \
+	pkg/networkmanager/helpers.js \
+	pkg/networkmanager/index.html \
+	pkg/networkmanager/interfaces.js \
+	pkg/networkmanager/manifest.json \
+	pkg/networkmanager/model-context.jsx \
+	pkg/networkmanager/network-interface-members.jsx \
+	pkg/networkmanager/network-interface.jsx \
+	pkg/networkmanager/network-main-dialogs.jsx \
+	pkg/networkmanager/network-main.jsx \
+	pkg/networkmanager/networking.scss \
+	pkg/networkmanager/plots.js \
+	pkg/networkmanager/test-utils.js \
+	pkg/networkmanager/utils.js \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+networkmanager_OUTPUTS = \
+	dist/networkmanager/firewall.css \
+	dist/networkmanager/firewall.html \
+	dist/networkmanager/firewall.js \
+	dist/networkmanager/firewall.js.LICENSE.txt \
+	dist/networkmanager/index.html \
+	dist/networkmanager/network.css \
+	dist/networkmanager/network.js \
+	dist/networkmanager/network.js.LICENSE.txt \
+	dist/networkmanager/po.cs.js \
+	dist/networkmanager/po.de.js \
+	dist/networkmanager/po.es.js \
+	dist/networkmanager/po.fi.js \
+	dist/networkmanager/po.fr.js \
+	dist/networkmanager/po.he.js \
+	dist/networkmanager/po.it.js \
+	dist/networkmanager/po.ja.js \
+	dist/networkmanager/po.ko.js \
+	dist/networkmanager/po.nb_NO.js \
+	dist/networkmanager/po.nl.js \
+	dist/networkmanager/po.pl.js \
+	dist/networkmanager/po.pt_BR.js \
+	dist/networkmanager/po.ru.js \
+	dist/networkmanager/po.sk.js \
+	dist/networkmanager/po.sv.js \
+	dist/networkmanager/po.tr.js \
+	dist/networkmanager/po.uk.js \
+	dist/networkmanager/po.zh_CN.js \
+	dist/networkmanager/po.zh_TW.js \
+	dist/networkmanager/test-utils.css \
+	dist/networkmanager/test-utils.html \
+	dist/networkmanager/test-utils.js \
+	dist/networkmanager/test-utils.js.LICENSE.txt \
+	$(NULL)
+
+networkmanager_INSTALL = \
+	dist/networkmanager/manifest.json \
+	$(NULL)
+
+networkmanager_GZ_INSTALL = \
+	dist/networkmanager/firewall.css \
+	dist/networkmanager/firewall.html \
+	dist/networkmanager/firewall.js \
+	dist/networkmanager/index.html \
+	dist/networkmanager/network.css \
+	dist/networkmanager/network.js \
+	dist/networkmanager/po.cs.js \
+	dist/networkmanager/po.de.js \
+	dist/networkmanager/po.es.js \
+	dist/networkmanager/po.fi.js \
+	dist/networkmanager/po.fr.js \
+	dist/networkmanager/po.he.js \
+	dist/networkmanager/po.it.js \
+	dist/networkmanager/po.ja.js \
+	dist/networkmanager/po.ko.js \
+	dist/networkmanager/po.nb_NO.js \
+	dist/networkmanager/po.nl.js \
+	dist/networkmanager/po.pl.js \
+	dist/networkmanager/po.pt_BR.js \
+	dist/networkmanager/po.ru.js \
+	dist/networkmanager/po.sk.js \
+	dist/networkmanager/po.sv.js \
+	dist/networkmanager/po.tr.js \
+	dist/networkmanager/po.uk.js \
+	dist/networkmanager/po.zh_CN.js \
+	dist/networkmanager/po.zh_TW.js \
+	$(NULL)
+
+networkmanager_TESTS = \
+	dist/networkmanager/test-utils.html \
+	$(NULL)
+
+dist/networkmanager/manifest.json: $(networkmanager_INPUTS)
+
+dist/networkmanager/firewall.css: dist/networkmanager/manifest.json
+
+dist/networkmanager/firewall.html: dist/networkmanager/manifest.json
+
+dist/networkmanager/firewall.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/firewall.js.LICENSE.txt: dist/networkmanager/manifest.json
+
+dist/networkmanager/index.html: dist/networkmanager/manifest.json
+
+dist/networkmanager/network.css: dist/networkmanager/manifest.json
+
+dist/networkmanager/network.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/network.js.LICENSE.txt: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.cs.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.de.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.es.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.fi.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.fr.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.he.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.it.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.ja.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.ko.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.nb_NO.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.nl.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.pl.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.pt_BR.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.ru.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.sk.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.sv.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.tr.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.uk.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.zh_CN.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/po.zh_TW.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/test-utils.css: dist/networkmanager/manifest.json
+
+dist/networkmanager/test-utils.html: dist/networkmanager/manifest.json
+
+dist/networkmanager/test-utils.js: dist/networkmanager/manifest.json
+
+dist/networkmanager/test-utils.js.LICENSE.txt: dist/networkmanager/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/cockpit-components-logs-panel.jsx:
+
+pkg/lib/cockpit-components-logs-panel.scss:
+
+pkg/lib/cockpit-components-plot.jsx:
+
+pkg/lib/cockpit-components-plot.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/form-layout.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/journal.css:
+
+pkg/lib/journal.js:
+
+pkg/lib/mustache.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/patternfly/patternfly-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-overrides-variables.scss:
+
+pkg/lib/patternfly/patternfly-overrides.scss:
+
+pkg/lib/patterns.js:
+
+pkg/lib/plot.js:
+
+pkg/lib/qunit-config.js:
+
+pkg/lib/qunit-template.html:
+
+pkg/lib/qunit-tests.js:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/lib/table.css:
+
+pkg/lib/timeformat.js:
+
+pkg/lib/variables.scss:
+
+pkg/networkmanager/app.jsx:
+
+pkg/networkmanager/firewall-client.js:
+
+pkg/networkmanager/firewall-switch.jsx:
+
+pkg/networkmanager/firewall.html:
+
+pkg/networkmanager/firewall.jsx:
+
+pkg/networkmanager/helpers.js:
+
+pkg/networkmanager/index.html:
+
+pkg/networkmanager/interfaces.js:
+
+pkg/networkmanager/manifest.json:
+
+pkg/networkmanager/model-context.jsx:
+
+pkg/networkmanager/network-interface-members.jsx:
+
+pkg/networkmanager/network-interface.jsx:
+
+pkg/networkmanager/network-main-dialogs.jsx:
+
+pkg/networkmanager/network-main.jsx:
+
+pkg/networkmanager/networking.scss:
+
+pkg/networkmanager/plots.js:
+
+pkg/networkmanager/test-utils.js:
+
+pkg/networkmanager/utils.js:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(networkmanager_INPUTS)
+WEBPACK_OUTPUTS += $(networkmanager_OUTPUTS)
+WEBPACK_INSTALL += $(networkmanager_INSTALL)
+WEBPACK_GZ_INSTALL += $(networkmanager_GZ_INSTALL)
+TESTS += $(networkmanager_TESTS)
+
+networkmanager: dist/networkmanager/manifest.json
