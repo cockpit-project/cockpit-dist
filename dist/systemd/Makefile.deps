@@ -1,0 +1,547 @@
+# Generated Makefile data for systemd
+systemd_INPUTS = \
+	.babelrc.json \
+	package.json \
+	pkg/lib/_global-variables.scss \
+	pkg/lib/cockpit-components-context-menu.jsx \
+	pkg/lib/cockpit-components-dialog.css \
+	pkg/lib/cockpit-components-dialog.jsx \
+	pkg/lib/cockpit-components-empty-state.css \
+	pkg/lib/cockpit-components-empty-state.jsx \
+	pkg/lib/cockpit-components-inline-notification.css \
+	pkg/lib/cockpit-components-inline-notification.jsx \
+	pkg/lib/cockpit-components-install-dialog.css \
+	pkg/lib/cockpit-components-install-dialog.jsx \
+	pkg/lib/cockpit-components-logs-panel.jsx \
+	pkg/lib/cockpit-components-logs-panel.scss \
+	pkg/lib/cockpit-components-privileged.jsx \
+	pkg/lib/cockpit-components-shutdown.jsx \
+	pkg/lib/cockpit-components-shutdown.scss \
+	pkg/lib/cockpit-components-table.jsx \
+	pkg/lib/cockpit-components-table.scss \
+	pkg/lib/cockpit-components-terminal.jsx \
+	pkg/lib/console.css \
+	pkg/lib/context-menu.css \
+	pkg/lib/ct-card.scss \
+	pkg/lib/form-layout.scss \
+	pkg/lib/hooks.js \
+	pkg/lib/journal.css \
+	pkg/lib/journal.js \
+	pkg/lib/machine-info.js \
+	pkg/lib/notifications.js \
+	pkg/lib/packagekit.js \
+	pkg/lib/page.scss \
+	pkg/lib/patternfly/_fonts.scss \
+	pkg/lib/patternfly/patternfly-4-cockpit.scss \
+	pkg/lib/patternfly/patternfly-4-overrides.scss \
+	pkg/lib/patternfly/patternfly-cockpit.scss \
+	pkg/lib/patternfly/patternfly-overrides-variables.scss \
+	pkg/lib/patternfly/patternfly-overrides.scss \
+	pkg/lib/patterns.js \
+	pkg/lib/polyfills.js \
+	pkg/lib/serverTime.js \
+	pkg/lib/service.js \
+	pkg/lib/superuser.js \
+	pkg/lib/table.css \
+	pkg/lib/timeformat.js \
+	pkg/lib/variables.scss \
+	pkg/shell/machines/machines.js \
+	pkg/shell/machines/ssh-add-key.sh \
+	pkg/shell/superuser.jsx \
+	pkg/systemd/abrtLog.jsx \
+	pkg/systemd/hw-detect.js \
+	pkg/systemd/hwinfo.html \
+	pkg/systemd/hwinfo.jsx \
+	pkg/systemd/hwinfo.scss \
+	pkg/systemd/index.html \
+	pkg/systemd/kernelopt.sh \
+	pkg/systemd/logDetails.jsx \
+	pkg/systemd/logs.html \
+	pkg/systemd/logs.jsx \
+	pkg/systemd/logs.scss \
+	pkg/systemd/logsHelpers.js \
+	pkg/systemd/logsJournal.jsx \
+	pkg/systemd/manifest.json \
+	pkg/systemd/overview-cards/configurationCard.jsx \
+	pkg/systemd/overview-cards/configurationCard.scss \
+	pkg/systemd/overview-cards/healthCard.jsx \
+	pkg/systemd/overview-cards/healthCard.scss \
+	pkg/systemd/overview-cards/insights-poll-hack.sh \
+	pkg/systemd/overview-cards/insights.jsx \
+	pkg/systemd/overview-cards/insights.scss \
+	pkg/systemd/overview-cards/lastLogin.jsx \
+	pkg/systemd/overview-cards/lastLogin.scss \
+	pkg/systemd/overview-cards/motdCard.jsx \
+	pkg/systemd/overview-cards/motdCard.scss \
+	pkg/systemd/overview-cards/realmd-operation.html \
+	pkg/systemd/overview-cards/realmd-operation.js \
+	pkg/systemd/overview-cards/ssh-list-host-keys.sh \
+	pkg/systemd/overview-cards/systemInformationCard.jsx \
+	pkg/systemd/overview-cards/systemInformationCard.scss \
+	pkg/systemd/overview-cards/usageCard.jsx \
+	pkg/systemd/overview-cards/usageCard.scss \
+	pkg/systemd/overview.jsx \
+	pkg/systemd/overview.scss \
+	pkg/systemd/page-status.jsx \
+	pkg/systemd/reporting.jsx \
+	pkg/systemd/reporting.scss \
+	pkg/systemd/services.html \
+	pkg/systemd/services/service-details.jsx \
+	pkg/systemd/services/service-details.scss \
+	pkg/systemd/services/service-tabs.jsx \
+	pkg/systemd/services/service.jsx \
+	pkg/systemd/services/services-list.jsx \
+	pkg/systemd/services/services.jsx \
+	pkg/systemd/services/services.scss \
+	pkg/systemd/services/timer-dialog-helpers.js \
+	pkg/systemd/services/timer-dialog.jsx \
+	pkg/systemd/services/timers.scss \
+	pkg/systemd/superuser-alert.jsx \
+	pkg/systemd/system-global.scss \
+	pkg/systemd/terminal.html \
+	pkg/systemd/terminal.jsx \
+	pkg/systemd/terminal.scss \
+	po/LINGUAS \
+	po/cs.po \
+	po/de.po \
+	po/es.po \
+	po/fi.po \
+	po/fr.po \
+	po/he.po \
+	po/it.po \
+	po/ja.po \
+	po/ko.po \
+	po/nb_NO.po \
+	po/nl.po \
+	po/pl.po \
+	po/pt_BR.po \
+	po/ru.po \
+	po/sk.po \
+	po/sv.po \
+	po/tr.po \
+	po/uk.po \
+	po/zh_CN.po \
+	po/zh_TW.po \
+	$(NULL)
+
+systemd_OUTPUTS = \
+	dist/systemd/hwinfo.css \
+	dist/systemd/hwinfo.html \
+	dist/systemd/hwinfo.js \
+	dist/systemd/hwinfo.js.LICENSE.txt \
+	dist/systemd/index.html \
+	dist/systemd/logs.css \
+	dist/systemd/logs.html \
+	dist/systemd/logs.js \
+	dist/systemd/logs.js.LICENSE.txt \
+	dist/systemd/overview.css \
+	dist/systemd/overview.js \
+	dist/systemd/overview.js.LICENSE.txt \
+	dist/systemd/po.cs.js \
+	dist/systemd/po.de.js \
+	dist/systemd/po.es.js \
+	dist/systemd/po.fi.js \
+	dist/systemd/po.fr.js \
+	dist/systemd/po.he.js \
+	dist/systemd/po.it.js \
+	dist/systemd/po.ja.js \
+	dist/systemd/po.ko.js \
+	dist/systemd/po.nb_NO.js \
+	dist/systemd/po.nl.js \
+	dist/systemd/po.pl.js \
+	dist/systemd/po.pt_BR.js \
+	dist/systemd/po.ru.js \
+	dist/systemd/po.sk.js \
+	dist/systemd/po.sv.js \
+	dist/systemd/po.tr.js \
+	dist/systemd/po.uk.js \
+	dist/systemd/po.zh_CN.js \
+	dist/systemd/po.zh_TW.js \
+	dist/systemd/services.css \
+	dist/systemd/services.html \
+	dist/systemd/services.js \
+	dist/systemd/services.js.LICENSE.txt \
+	dist/systemd/terminal.css \
+	dist/systemd/terminal.html \
+	dist/systemd/terminal.js \
+	dist/systemd/terminal.js.LICENSE.txt \
+	$(NULL)
+
+systemd_INSTALL = \
+	dist/systemd/manifest.json \
+	$(NULL)
+
+systemd_GZ_INSTALL = \
+	dist/systemd/hwinfo.css \
+	dist/systemd/hwinfo.html \
+	dist/systemd/hwinfo.js \
+	dist/systemd/index.html \
+	dist/systemd/logs.css \
+	dist/systemd/logs.html \
+	dist/systemd/logs.js \
+	dist/systemd/overview.css \
+	dist/systemd/overview.js \
+	dist/systemd/po.cs.js \
+	dist/systemd/po.de.js \
+	dist/systemd/po.es.js \
+	dist/systemd/po.fi.js \
+	dist/systemd/po.fr.js \
+	dist/systemd/po.he.js \
+	dist/systemd/po.it.js \
+	dist/systemd/po.ja.js \
+	dist/systemd/po.ko.js \
+	dist/systemd/po.nb_NO.js \
+	dist/systemd/po.nl.js \
+	dist/systemd/po.pl.js \
+	dist/systemd/po.pt_BR.js \
+	dist/systemd/po.ru.js \
+	dist/systemd/po.sk.js \
+	dist/systemd/po.sv.js \
+	dist/systemd/po.tr.js \
+	dist/systemd/po.uk.js \
+	dist/systemd/po.zh_CN.js \
+	dist/systemd/po.zh_TW.js \
+	dist/systemd/services.css \
+	dist/systemd/services.html \
+	dist/systemd/services.js \
+	dist/systemd/terminal.css \
+	dist/systemd/terminal.html \
+	dist/systemd/terminal.js \
+	$(NULL)
+
+systemd_TESTS = \
+	$(NULL)
+
+dist/systemd/manifest.json: $(systemd_INPUTS)
+
+dist/systemd/hwinfo.css: dist/systemd/manifest.json
+
+dist/systemd/hwinfo.html: dist/systemd/manifest.json
+
+dist/systemd/hwinfo.js: dist/systemd/manifest.json
+
+dist/systemd/hwinfo.js.LICENSE.txt: dist/systemd/manifest.json
+
+dist/systemd/index.html: dist/systemd/manifest.json
+
+dist/systemd/logs.css: dist/systemd/manifest.json
+
+dist/systemd/logs.html: dist/systemd/manifest.json
+
+dist/systemd/logs.js: dist/systemd/manifest.json
+
+dist/systemd/logs.js.LICENSE.txt: dist/systemd/manifest.json
+
+dist/systemd/overview.css: dist/systemd/manifest.json
+
+dist/systemd/overview.js: dist/systemd/manifest.json
+
+dist/systemd/overview.js.LICENSE.txt: dist/systemd/manifest.json
+
+dist/systemd/po.cs.js: dist/systemd/manifest.json
+
+dist/systemd/po.de.js: dist/systemd/manifest.json
+
+dist/systemd/po.es.js: dist/systemd/manifest.json
+
+dist/systemd/po.fi.js: dist/systemd/manifest.json
+
+dist/systemd/po.fr.js: dist/systemd/manifest.json
+
+dist/systemd/po.he.js: dist/systemd/manifest.json
+
+dist/systemd/po.it.js: dist/systemd/manifest.json
+
+dist/systemd/po.ja.js: dist/systemd/manifest.json
+
+dist/systemd/po.ko.js: dist/systemd/manifest.json
+
+dist/systemd/po.nb_NO.js: dist/systemd/manifest.json
+
+dist/systemd/po.nl.js: dist/systemd/manifest.json
+
+dist/systemd/po.pl.js: dist/systemd/manifest.json
+
+dist/systemd/po.pt_BR.js: dist/systemd/manifest.json
+
+dist/systemd/po.ru.js: dist/systemd/manifest.json
+
+dist/systemd/po.sk.js: dist/systemd/manifest.json
+
+dist/systemd/po.sv.js: dist/systemd/manifest.json
+
+dist/systemd/po.tr.js: dist/systemd/manifest.json
+
+dist/systemd/po.uk.js: dist/systemd/manifest.json
+
+dist/systemd/po.zh_CN.js: dist/systemd/manifest.json
+
+dist/systemd/po.zh_TW.js: dist/systemd/manifest.json
+
+dist/systemd/services.css: dist/systemd/manifest.json
+
+dist/systemd/services.html: dist/systemd/manifest.json
+
+dist/systemd/services.js: dist/systemd/manifest.json
+
+dist/systemd/services.js.LICENSE.txt: dist/systemd/manifest.json
+
+dist/systemd/terminal.css: dist/systemd/manifest.json
+
+dist/systemd/terminal.html: dist/systemd/manifest.json
+
+dist/systemd/terminal.js: dist/systemd/manifest.json
+
+dist/systemd/terminal.js.LICENSE.txt: dist/systemd/manifest.json
+
+.babelrc.json:
+
+package.json:
+
+pkg/lib/_global-variables.scss:
+
+pkg/lib/cockpit-components-context-menu.jsx:
+
+pkg/lib/cockpit-components-dialog.css:
+
+pkg/lib/cockpit-components-dialog.jsx:
+
+pkg/lib/cockpit-components-empty-state.css:
+
+pkg/lib/cockpit-components-empty-state.jsx:
+
+pkg/lib/cockpit-components-inline-notification.css:
+
+pkg/lib/cockpit-components-inline-notification.jsx:
+
+pkg/lib/cockpit-components-install-dialog.css:
+
+pkg/lib/cockpit-components-install-dialog.jsx:
+
+pkg/lib/cockpit-components-logs-panel.jsx:
+
+pkg/lib/cockpit-components-logs-panel.scss:
+
+pkg/lib/cockpit-components-privileged.jsx:
+
+pkg/lib/cockpit-components-shutdown.jsx:
+
+pkg/lib/cockpit-components-shutdown.scss:
+
+pkg/lib/cockpit-components-table.jsx:
+
+pkg/lib/cockpit-components-table.scss:
+
+pkg/lib/cockpit-components-terminal.jsx:
+
+pkg/lib/console.css:
+
+pkg/lib/context-menu.css:
+
+pkg/lib/ct-card.scss:
+
+pkg/lib/form-layout.scss:
+
+pkg/lib/hooks.js:
+
+pkg/lib/journal.css:
+
+pkg/lib/journal.js:
+
+pkg/lib/machine-info.js:
+
+pkg/lib/notifications.js:
+
+pkg/lib/packagekit.js:
+
+pkg/lib/page.scss:
+
+pkg/lib/patternfly/_fonts.scss:
+
+pkg/lib/patternfly/patternfly-4-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-4-overrides.scss:
+
+pkg/lib/patternfly/patternfly-cockpit.scss:
+
+pkg/lib/patternfly/patternfly-overrides-variables.scss:
+
+pkg/lib/patternfly/patternfly-overrides.scss:
+
+pkg/lib/patterns.js:
+
+pkg/lib/polyfills.js:
+
+pkg/lib/serverTime.js:
+
+pkg/lib/service.js:
+
+pkg/lib/superuser.js:
+
+pkg/lib/table.css:
+
+pkg/lib/timeformat.js:
+
+pkg/lib/variables.scss:
+
+pkg/shell/machines/machines.js:
+
+pkg/shell/machines/ssh-add-key.sh:
+
+pkg/shell/superuser.jsx:
+
+pkg/systemd/abrtLog.jsx:
+
+pkg/systemd/hw-detect.js:
+
+pkg/systemd/hwinfo.html:
+
+pkg/systemd/hwinfo.jsx:
+
+pkg/systemd/hwinfo.scss:
+
+pkg/systemd/index.html:
+
+pkg/systemd/kernelopt.sh:
+
+pkg/systemd/logDetails.jsx:
+
+pkg/systemd/logs.html:
+
+pkg/systemd/logs.jsx:
+
+pkg/systemd/logs.scss:
+
+pkg/systemd/logsHelpers.js:
+
+pkg/systemd/logsJournal.jsx:
+
+pkg/systemd/manifest.json:
+
+pkg/systemd/overview-cards/configurationCard.jsx:
+
+pkg/systemd/overview-cards/configurationCard.scss:
+
+pkg/systemd/overview-cards/healthCard.jsx:
+
+pkg/systemd/overview-cards/healthCard.scss:
+
+pkg/systemd/overview-cards/insights-poll-hack.sh:
+
+pkg/systemd/overview-cards/insights.jsx:
+
+pkg/systemd/overview-cards/insights.scss:
+
+pkg/systemd/overview-cards/lastLogin.jsx:
+
+pkg/systemd/overview-cards/lastLogin.scss:
+
+pkg/systemd/overview-cards/motdCard.jsx:
+
+pkg/systemd/overview-cards/motdCard.scss:
+
+pkg/systemd/overview-cards/realmd-operation.html:
+
+pkg/systemd/overview-cards/realmd-operation.js:
+
+pkg/systemd/overview-cards/ssh-list-host-keys.sh:
+
+pkg/systemd/overview-cards/systemInformationCard.jsx:
+
+pkg/systemd/overview-cards/systemInformationCard.scss:
+
+pkg/systemd/overview-cards/usageCard.jsx:
+
+pkg/systemd/overview-cards/usageCard.scss:
+
+pkg/systemd/overview.jsx:
+
+pkg/systemd/overview.scss:
+
+pkg/systemd/page-status.jsx:
+
+pkg/systemd/reporting.jsx:
+
+pkg/systemd/reporting.scss:
+
+pkg/systemd/services.html:
+
+pkg/systemd/services/service-details.jsx:
+
+pkg/systemd/services/service-details.scss:
+
+pkg/systemd/services/service-tabs.jsx:
+
+pkg/systemd/services/service.jsx:
+
+pkg/systemd/services/services-list.jsx:
+
+pkg/systemd/services/services.jsx:
+
+pkg/systemd/services/services.scss:
+
+pkg/systemd/services/timer-dialog-helpers.js:
+
+pkg/systemd/services/timer-dialog.jsx:
+
+pkg/systemd/services/timers.scss:
+
+pkg/systemd/superuser-alert.jsx:
+
+pkg/systemd/system-global.scss:
+
+pkg/systemd/terminal.html:
+
+pkg/systemd/terminal.jsx:
+
+pkg/systemd/terminal.scss:
+
+po/LINGUAS:
+
+po/cs.po:
+
+po/de.po:
+
+po/es.po:
+
+po/fi.po:
+
+po/fr.po:
+
+po/he.po:
+
+po/it.po:
+
+po/ja.po:
+
+po/ko.po:
+
+po/nb_NO.po:
+
+po/nl.po:
+
+po/pl.po:
+
+po/pt_BR.po:
+
+po/ru.po:
+
+po/sk.po:
+
+po/sv.po:
+
+po/tr.po:
+
+po/uk.po:
+
+po/zh_CN.po:
+
+po/zh_TW.po:
+
+WEBPACK_INPUTS += $(systemd_INPUTS)
+WEBPACK_OUTPUTS += $(systemd_OUTPUTS)
+WEBPACK_INSTALL += $(systemd_INSTALL)
+WEBPACK_GZ_INSTALL += $(systemd_GZ_INSTALL)
+TESTS += $(systemd_TESTS)
+
+systemd: dist/systemd/manifest.json
